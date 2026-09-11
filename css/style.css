@@ -187,3 +187,50 @@ body {
     background-color: rgba(139, 92, 246, 0.1);
     border-color: #c084fc;
 }
+
+/* === RESPONSIVIDADE DA FOTO DE PERFIL (HERO) === */
+.hero-img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.hero-profile-img {
+    max-height: 280px; /* Reduz o tamanho da foto no celular para não ocupar a tela toda */
+    width: auto;
+    object-fit: contain;
+    filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.4));
+}
+
+/* Telas Grandes (Desktop - lg em diante) */
+@media (min-width: 992px) {
+    .hero-section {
+        position: relative;
+    }
+    
+    .col-lg-5.position-relative-lg {
+        position: static !important;
+    }
+
+    .hero-img-container {
+        position: absolute;
+        bottom: -80px;
+        right: -40px;
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    .hero-profile-img {
+        max-height: 650px; /* Tamanho original perfeito para desktop */
+    }
+}
+
+/* === CORREÇÃO DE ALINHAMENTO E ESPAÇAMENTO NO MOBILE (HERO) === */
+@media (max-width: 991px) {
+    .hero-section {
+        padding-top: 100px !important; /* Afasta o conteúdo debaixo da navbar fixa */
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
