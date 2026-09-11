@@ -1,0 +1,189 @@
+:root {
+    --bg-color: #0b0f19;
+    --card-bg: #111827; /* Fundo escuro garantido para o card */
+    --card-body-bg: #111827;
+    --card-preview-bg: #0f172a;
+    --text-color: #f8fafc;
+    --text-muted-custom: #94a3b8;
+    --text-card-dark: #f9fafb; /* Texto claro para títulos */
+    --text-card-muted: #9ca3af; /* Texto cinza claro para descrições */
+    --navbar-bg: rgba(11, 15, 25, 0.9);
+    --hero-bg: radial-gradient(circle at 80% 20%, rgba(139, 92, 246, 0.15) 0%, transparent 50%);
+    --section-bg: #070913;
+    --primary-color: #3b82f6;
+    --primary-hover: #2563eb;
+    --accent-gradient: linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%);
+    
+    --preview-biblio: #0f172a;
+    --preview-quiz: #1e1b4b;
+    --preview-healthtech: #0c203b;
+}
+
+[data-theme="light"] {
+    --bg-color: #68b3fe4d;
+    --card-bg: #111827; /* Mantém o corpo do card escuro e elegante mesmo no modo claro */
+    --card-body-bg: #111827;
+    --card-preview-bg: #1e293b;
+    --text-color: #1e293b;
+    --text-muted-custom: #64748b;
+    --text-card-dark: #f9fafb;
+    --text-card-muted: #9ca3af;
+    --navbar-bg: rgba(255, 255, 255, 0.9);
+    --hero-bg: radial-gradient(circle at 80% 20%, rgba(139, 92, 246, 0.1) 0%, transparent 50%);
+    --section-bg: #f1f5f9;
+
+    --preview-biblio: #f1f5f9;
+    --preview-quiz: #fdf4f8;
+    --preview-healthtech: #f0fdf4;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    overflow-x: hidden;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar {
+    background-color: var(--navbar-bg);
+    backdrop-filter: blur(10px);
+    transition: background-color 0.3s ease;
+}
+
+.hero-section {
+    padding: 120px 0 80px;
+    background: var(--hero-bg);
+}
+
+.project-card {
+    background-color: var(--card-bg) !important; /* Força o fundo escuro no card inteiro */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card .card-body {
+    background-color: var(--card-body-bg) !important; /* Força o fundo escuro na área de texto */
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.15);
+}
+
+.preview-container {
+    height: 200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.project-card:nth-child(1) .preview-container {
+    background-color: var(--preview-biblio);
+}
+
+.project-card:nth-child(2) .preview-container {
+    background-color: var(--preview-quiz);
+}
+
+.project-card:nth-child(3) .preview-container {
+    background-color: var(--preview-healthtech);
+}
+
+.preview-mockup-text {
+    font-weight: 700;
+    font-size: 1.35rem;
+    background: linear-gradient(90deg, #f43f5e, #c084fc, #38bdf8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* === FILTRO TRANSLÚCIDO E EFEITO HOVER === */
+.project-preview-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    filter: grayscale(20%) brightness(90%);
+    transition: filter 0.4s ease, transform 0.4s ease;
+}
+
+.project-card:hover .project-preview-img {
+    filter: grayscale(0%) brightness(100%);
+    transform: scale(1.03);
+}
+
+.card-title-custom {
+    color: var(--text-card-dark) !important;
+}
+
+.card-text-custom {
+    color: var(--text-card-muted) !important;
+}
+
+.card-img-top, .project-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.badge-pill {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-weight: 600;
+    font-size: 0.75rem;
+    padding: 0.35rem 0.75rem;
+    border-radius: 50rem;
+    border: 1px solid #374151;
+}
+
+.btn-demo {
+    background-color: var(--primary-color);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+.btn-demo:hover {
+    background-color: var(--primary-hover);
+    color: #fff;
+}
+
+.btn-template {
+    background: var(--accent-gradient);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    transition: opacity 0.2s;
+}
+
+.btn-template:hover {
+    opacity: 0.9;
+    color: #fff;
+}
+
+.theme-toggle-btn {
+    background: none;
+    border: 1px solid var(--text-muted-custom);
+    color: var(--text-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.theme-toggle-btn:hover {
+    background-color: rgba(139, 92, 246, 0.1);
+    border-color: #c084fc;
+}
