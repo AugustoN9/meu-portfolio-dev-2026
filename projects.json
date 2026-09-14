@@ -40,23 +40,14 @@
     "codeUrl": "https://github.com/AugustoN9/projetoGamePatologic2025-006"
   },
   {
-    "id": 2,
-    "title": "O Quiz da Brenda",
-    "subtitle": "Plataforma de Estudos Interativa",
-    "description": "Aplicação web educativa voltada para o aprendizado lúdico, com seleção de anos escolares e desafios interativos.",
-    "image": "image/capa-proj/quizBrenda.png",
+    "id": 5,
+    "title": "Aplicativo appRhisCare",
+    "subtitle": "Plataforma de Saude",
+    "description": "Aplicação web interativo para auxiliar nos cuidados com saude.",
+    "image": "image/capa-proj/appRhisCare.png",
     "tags": ["Web App", "Gamificação", "JavaScript"],
-    "demoUrl": "https://auguston9.github.io/quiz-estudos-brenda-2026/",
-    "codeUrl": "https://github.com/AugustoN9/quiz-estudos-brenda-2026"
-  },
-  {
-    "id": 3,
-    "title": "Sistema de Gestão Clínica - HealthTech",
-    "subtitle": "Gestão e Prontuários Médicos",
-    "description": "Sistema web completo para gerenciamento de clínicas, suporte a múltiplos perfis, controle de consultas, exames e vacinação.",
-    "image": "image/capa-proj/healthtech.png",
-    "tags": ["PHP", "MySQL", "Docker", "Bootstrap"],
-    "demoUrl": "https://sistema-gestao-clinica-healthtech-php.onrender.com",
-    "codeUrl": "https://github.com/AugustoN9/sistema-gestao-clinica-healthtech-php"
+    "demoUrl": "https://auguston9.github.io/UFCSPA-2-2025-appRhisCare/",
+    "codeUrl": "https://github.com/AugustoN9/UFCSPA-2-2025-appRhisCare"
   }
+ 
 ]
