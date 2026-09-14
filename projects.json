@@ -30,14 +30,14 @@
     "codeUrl": "https://github.com/AugustoN9/sistema-gestao-clinica-healthtech-php"
   },
   {
-    "id": 1,
-    "title": "Biblioteca Digital",
-    "subtitle": "Acervo de Livros PDF",
-    "description": "Plataforma interativa para exploração de materiais de estudo, busca por categorias e gestão de acervo.",
-    "image": "image/capa-proj/biblio.png",
+    "id": 4,
+    "title": "Patologic",
+    "subtitle": "Ensino profissional em Patologia",
+    "description": "Plataforma interativa de ensino profissional focado em laboratorio de patologia.",
+    "image": "image/capa-proj/patologic.png",
     "tags": ["Web App", "UI/UX", "Fullstack"],
-    "demoUrl": "https://biblioteca-digital-ak-o-ka-2026.vercel.app/",
-    "codeUrl": "https://github.com/AugustoN9/biblioteca-digital-ak-o-ka-2026"
+    "demoUrl": "https://auguston9.github.io/projetoGamePatologic2025-006/",
+    "codeUrl": "https://github.com/AugustoN9/projetoGamePatologic2025-006"
   },
   {
     "id": 2,
