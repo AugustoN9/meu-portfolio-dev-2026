@@ -48,6 +48,15 @@
     "tags": ["Web App", "Gamificação", "JavaScript"],
     "demoUrl": "https://auguston9.github.io/UFCSPA-2-2025-appRhisCare/",
     "codeUrl": "https://github.com/AugustoN9/UFCSPA-2-2025-appRhisCare"
+  },
+  {
+    "id": 6,
+    "title": "SmartPadaria",
+    "subtitle": "E-commerce & Gestão de Pedidos",
+    "description": "Sistema completo para padarias com cardápio digital, gestão de tele-entrega, controle de estoque e painel administrativo.",
+    "image": "image/capa-proj/smartpadaria.png",
+    "tags": ["Angular", "Node.js", "PostgreSQL", "Fullstack"],
+    "demoUrl": "https://projeto-e-commerce-smart-padaria.vercel.app/cardapio",
+    "codeUrl": "https://github.com/AugustoN9/projetoE-commerce-SmartPadaria"
   }
- 
 ]
