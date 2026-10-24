@@ -14,7 +14,7 @@
     "title": "O Quiz da Brenda",
     "subtitle": "Plataforma de Estudos Interativa",
     "description": "Aplicação web educativa voltada para o aprendizado lúdico, com seleção de anos escolares e desafios interativos.",
-    "image": "image/capa-proj/quizBrenda.png",
+    "image": "image/capa-proj/quizBoris.png",
     "tags": ["Web App", "Gamificação", "JavaScript"],
     "demoUrl": "https://auguston9.github.io/quiz-estudos-brenda-2026/",
     "codeUrl": "https://github.com/AugustoN9/quiz-estudos-brenda-2026"
@@ -58,5 +58,36 @@
     "tags": ["Angular", "Node.js", "PostgreSQL", "Fullstack"],
     "demoUrl": "https://projeto-e-commerce-smart-padaria.vercel.app/cardapio",
     "codeUrl": "https://github.com/AugustoN9/projetoE-commerce-SmartPadaria"
+  },
+   {
+    "id": 7,
+    "title": "Agenda Minha Semana",
+    "subtitle": "Organize seus compromissos na semana",
+    "description": "Sistema completo para padarias com cardápio digital, gestão de tele-entrega, controle de estoque e painel administrativo.",
+    "image": "image/capa-proj/minha-semana.png",
+    "tags": ["Angular", "Node.js", "PostgreSQL", "Fullstack"],
+    "demoUrl": "https://agenda-minha-semana-frontend.onrender.com/",
+    "codeUrl": "https://github.com/AugustoN9/agenda-minha-semana/settings/pages"
+  },
+   {
+    "id": 8,
+    "title": "Arcade HUB",
+    "subtitle": "Jogos divertidos arcade",
+    "description": "Sistema completo para padarias com cardápio digital, gestão de tele-entrega, controle de estoque e painel administrativo.",
+    "image": "image/capa-proj/jogo-dino.png",
+    "tags": ["HTML", "CSS", "Javascript"],
+    "demoUrl": "https://auguston9.github.io/GameDINO/",
+    "codeUrl": "https://github.com/AugustoN9/GameDINO"
+  },
+   {
+    "id": 9,
+    "title": "QR Studio",
+    "subtitle": "Gerador de QRcode",
+    "description": "Sistema completo para padarias com cardápio digital, gestão de tele-entrega, controle de estoque e painel administrativo.",
+    "image": "image/capa-proj/qrcode.png",
+    "tags": ["Angular", "Node.js", "PostgreSQL", "Fullstack"],
+    "demoUrl": "https://auguston9.github.io/qrcode-studio-generator-v1.10.26/",
+    "codeUrl": "https://github.com/AugustoN9/qrcode-studio-generator-v1.10.26"
   }
+
 ]
